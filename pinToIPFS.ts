@@ -53,7 +53,7 @@ const pinJson = (pinnedFile: any) => {
           name: "TUT-metadata",
         },
       })
-      .then((res: any) => console.log(res));
-    console.log(metadata);
+      .then((res: any) => console.log(res.IpfsHash));
+    // console.log(metadata);
   }
 };
